@@ -1,0 +1,22 @@
+@media screen and (max-width: 100vw){
+    body{
+        background-color: rgba(118, 203, 0, 0.57);
+    }
+}
+@media all and (max-device-width: 100vw)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */{
+    body{
+        background-color: blueviolet;
+    }
+}
+*{
+    margin: 0%;
+}
+body{
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 50vw
+}

@@ -1,0 +1,70 @@
+@media screen and (max-width: 100vw){
+    body{
+        background-color: chartreuse;
+    }
+}
+@media all and (max-device-width: 100vw)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */{
+    body{
+        background-color: blueviolet;
+    }
+}
+*{
+    margin: 0%;
+}
+header{
+    height: 5vh;
+    text-size-adjust: 100%;
+    background-color: blueviolet;
+    justify-content: start;
+    position:relative;
+}
+h2{
+    text-size-adjust: 100%;
+    justify-content: center;
+}
+section{
+    justify-content: center;
+}
+img{
+    width: 34vw;
+    justify-content: end;
+    position:inherit;
+}
+aside{
+    width: 33vw;
+    background-color: rgb(231, 53, 53);
+    color: rgb(160, 42, 42);
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 34vw;
+}
+#citations{
+    width: 80%;
+}
+body{
+    background-color: rgba(118, 203, 0, 0.57);
+    display: flex;
+    height: 100vh;
+}
+.episodes{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    background-color: rgba(8, 237, 0, 0.941);
+    width: 33vw;
+    vertical-align: middle;
+}
+a{
+    color: rgb(0, 89, 255);
+}
+div{
+    text-align: center;
+}
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 5vh;
+    justify-content: flex-end;
+}
