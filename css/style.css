@@ -14,7 +14,6 @@
 header{
     height: 5vh;
     text-size-adjust: 100%;
-    background-color: blueviolet;
     justify-content: start;
     position:relative;
 }
@@ -32,7 +31,6 @@ img{
 }
 aside{
     width: 33vw;
-    background-color: rgb(231, 53, 53);
     color: rgb(160, 42, 42);
     text-align: center;
 }
@@ -52,7 +50,6 @@ body{
 .episodes{
     color: rgb(0, 0, 255);
     text-align: center;
-    background-color: rgba(8, 237, 0, 0.941);
     width: 33vw;
     vertical-align: middle;
 }
